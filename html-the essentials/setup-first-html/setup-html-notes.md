@@ -38,3 +38,20 @@
   --- ex: listing will be done with bullets.
 - image (img)
   -- this is not the only way to display images, we can also do it using JS and CSS
+- block and inline elements
+  -- block -> a tag, which put the information of the next tag on next line. ex: div
+  -- inline -> a tag, put the information of next tag in same line. ex: span
+- marquee and comments
+  -- marquee tag - to move text from either top to bottom, or left to right. based on behaviour style. its deprecated.
+- input tag - to get input from user.
+- type - diffrent types of input like, text, checkbox, button, color picker, date picker etc.
+- textarea - can enter an bunch of input
+- table
+
+# doctype
+
+- signals the browser,what type of HTML document to expect.
+
+# Note
+
+- always search for mdn article for any HTML tag info.
