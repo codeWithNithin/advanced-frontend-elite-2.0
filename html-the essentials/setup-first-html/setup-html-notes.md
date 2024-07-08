@@ -55,3 +55,8 @@
 # Note
 
 - always search for mdn article for any HTML tag info.
+
+# tag vs element
+
+- tag is a syntax to write HTML code.
+- when the tag is displayed on browser. it becomes an HTML element.
