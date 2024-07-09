@@ -47,6 +47,8 @@
 - type - diffrent types of input like, text, checkbox, button, color picker, date picker etc.
 - textarea - can enter an bunch of input
 - table
+- anchor tag, to add hyper links - it can be external site or it can be any text in our html
+- hr -> adds the horizontal line.
 
 # doctype
 
@@ -60,3 +62,12 @@
 
 - tag is a syntax to write HTML code.
 - when the tag is displayed on browser. it becomes an HTML element.
+
+# semantic HTML
+
+- writing tags accoring to the context.
+- tells exactly what is the context of the data inside the HTML.
+- adding meaning full tags to your.
+- give us better SEO.
+- accessibility as well.
+-
