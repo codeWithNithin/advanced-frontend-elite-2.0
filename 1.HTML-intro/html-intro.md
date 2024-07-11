@@ -127,3 +127,16 @@
   # DOCTYPE
 
   - it signals browser, that it accepts an HTML version 5 document
+
+# semantic HTML
+
+- we will write tags according to context.
+- its not necessary to put div everywhere.
+- serves the purpose to tell exactly what is the context of the data.
+- adding meaningful tags to document.
+- whenever someone reads the html raw code, they will be able to actually understand the coding implementation.
+- it helps improve readability and maintainablity, because code is properly distinguished.
+- for better seo.
+- for acessibility,alt property in img tag helps screen readers, to actually understand, what actually image is representing...
+- its not recomendation, its neccissity.
+- also refers to meaning of piece of code.
