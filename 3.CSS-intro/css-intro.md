@@ -50,3 +50,20 @@
 - final element height = top border + top padding + height + bottom border + bottom padding.
 - but if we apply border-box, than only width and height of the element is considered as element width and height.
 - add border-box, in universal selector, so all the elements gets inherits that border-box sizding
+
+# box-sizing in universal selector
+
+- do not use old style box-sizing method with universal selector.
+- as if in case, if we want a content box in any of the parent element, then by default, it will become border-bax by default
+- instead, use as
+  html {
+  box-sizing: border-box
+  }
+
+_, _:before, \*:after {
+box-sizing: inherit
+}
+
+# flexbox
+
+- one direction

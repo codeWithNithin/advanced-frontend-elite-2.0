@@ -1,0 +1,55 @@
+:root {
+  --cream: #ecdbad;
+  --sage: #c15143;
+  --deepgreen: #4b402a;
+  --taupe: #ccdbb2;
+  --eggshell: #f1facf;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--taupe);
+}
+
+#intro {
+  margin-bottom: 10rem;
+}
+
+#intro p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.name span {
+  display: block;
+  font-size: 4rem;
+}
+
+.profile {
+  margin-bottom: 1rem;
+}
+
+#intro h2 {
+  font-size: 3rem;
+  font-weight: normal;
+}
+
+#experience ul {
+  font-size: 3.5rem;
+  padding: 1rem;
+}
+
+#experience li {
+  list-style-type: none;
+}
+
+#hire {
+  width: 400px;
+  text-align: center;
+  margin: 0 auto;
+}

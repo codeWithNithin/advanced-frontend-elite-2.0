@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-size: 24px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+header {
+  height: 60px;
+  background: orangered;
+  width: 100%;
+}
+
+main {
+  flex-grow: 1;
+  display: flex;
+}
+
+nav {
+  background: orange;
+}
+
+article {
+  flex-grow: 1;
+  background: yellow;
+}
+
+aside {
+  background: blue;
+}
+
+footer {
+  height: 100px;
+  background: #555;
+  text-align: center;
+  width: 100%;
+}
