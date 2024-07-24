@@ -1,0 +1,62 @@
+// class -> blue print of the real world entity
+class Product {
+  // these are all properties, technically, its called data members
+  name;
+  price;
+  category;
+  description;
+  rating;
+
+  //very special member function of every class
+  constructor(name, price, category, description, rating) {
+    // here this referes to the empty object that is created when new keyword is called.
+    this.name = name;
+    this.price = price;
+    this.category = category;
+    this.description = description;
+    this.rating = rating;
+    console.log('constructor called');
+    // if constructor returns non-primitive value, then that manually returned object will be assigned to called variable
+    //if no return statement or if primitive values are returned, then value of this keyword will be assigned to called variable
+  }
+
+  // These are all methods, technically, its called member functions
+  addProduct() {
+    console.log('product added to cart');
+  }
+
+  displayProduct() {
+    console.log('display products here...');
+  }
+
+  buyProduct() {
+    console.log('display products here...');
+  }
+}
+
+// const p1 = new Product(
+//   'laptop',
+//   1000,
+//   'electronics',
+//   'laptop with 8gb ram',
+//   4.5
+// );
+
+// Related to this keyword...
+// In most of the cases, this refers to call site
+// What is a call site? call site means it can be an object, function, or class.
+
+let obj = {
+  x: 10,
+  y: 20,
+  fn: function () {
+    // here this refers to obj, since that obj is the one which trigered the fn function.
+    console.log(this.x, this.y);
+    const print = function () {
+      console.log(this.x, this.y);
+    };
+    print();
+  },
+};
+
+obj.fn();

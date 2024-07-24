@@ -58,3 +58,20 @@
 - if there are 2 diff. console logs are there, then outputs are printed in diffrent lines.
 - We can also pass, multiple values together to console.log() and all of them will be on same line.
 - ex: code are written in consolelogdemo.js file
+
+## Datatypes in JS.
+
+- values in JS can either be primitive or non-primitive (object)
+- primitive datatypes are -> types which are atomic in nature
+- number - ex: 10, -3, 2.6, 3.414
+- string - 'random text' or 'Random Text' or `Random Text`
+- boolean - true and false
+- undefined - a variable that is declared but value is not yet assigned.
+- null - a explicit value, that can be assigned to a variable.
+- symbol
+
+- non primitve datatypes are -> types
+- functions
+- arrays
+- date object
+- object literals
