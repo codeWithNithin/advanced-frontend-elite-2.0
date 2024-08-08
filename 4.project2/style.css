@@ -18,6 +18,8 @@ body {
 
 #intro {
   margin-bottom: 10rem;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 #intro p {
@@ -40,7 +42,7 @@ body {
 }
 
 #experience ul {
-  font-size: 3.5rem;
+  font-size: 1.2rem;
   padding: 1rem;
 }
 
@@ -49,7 +51,49 @@ body {
 }
 
 #hire {
+  background-color: var(--sage);
+}
+
+#hire .container {
   width: 400px;
   text-align: center;
   margin: 0 auto;
+  padding: 3rem 0;
+}
+
+#hire p:last-child {
+  margin-top: 3rem;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.main-header ul {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.main-header ul li a {
+  text-decoration: none;
+  color: var(--deepgreen);
+}
+
+.main-header ul li:last-child a {
+  background-color: orangered;
+  padding: 0.5rem;
+  border-radius: 5px;
+  color: white;
+}
+
+.main-header ul li:last-child a:hover {
+  background-color: red;
 }

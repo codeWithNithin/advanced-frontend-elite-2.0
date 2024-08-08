@@ -21,6 +21,7 @@ class Product {
     //if no return statement or if primitive values are returned, then value of this keyword will be assigned to called variable
   }
 
+  // To make the sure that users can set and get the value of the data members, we write getter and setter methods. these getter setter mthods will also help us to validate the values so that no one can allocate random values to our data members.
   set setProductName(name) {
     this.#name = name;
   }
@@ -30,7 +31,8 @@ class Product {
   }
 
   set setProductPrice(price) {
-    this.#price = price;
+    if (price > 0) this.#price = price;
+    else console.log('invalid price');
   }
 
   get getProductPrice() {
