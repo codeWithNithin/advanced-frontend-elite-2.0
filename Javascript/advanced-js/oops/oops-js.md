@@ -82,3 +82,4 @@ Everytime we call new, it does the following 4 things
 1. It creates a plain and absolutely empty object.
 2. it calls the constructor method and passes the plain object inside the this keyword. so when new is called, this keyword will be automatically accessed by the constructor method and when we call new, then the this keyword has access to the plain object.
 3. new does everything need to be done for prototypes to work.
+4. if in the constructor method, nothing is returned or primitive values are returned then this keyword will be returned. if non-primitive values are returned, that non-primitive values will be returned.

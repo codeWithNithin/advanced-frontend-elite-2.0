@@ -26,5 +26,12 @@
 - we can also use testing scripts also.
 - to run any script, we use npm run name_specified.
 - its a json (javascript object notation) fie, looks like javascript oject
+- dependencies - core modules which are required during deployment.
+- devDependencies - dependencies are only for dev purpose, not for production use or for deployment.
+- we should not be deploying all these dependencies, as it will make the application heavy.
+- ^ and ~
+- ^, for minor version installation
+- ~, for major version installation
 - package-lock.json
+- package-lock.json file contains the exact version of dependencies installed and also the info related to other dependencies that u r dependent on
 - vite.config.js

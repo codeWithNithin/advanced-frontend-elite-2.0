@@ -48,8 +48,8 @@ function PlayGameContainer() {
       guessedLetters={guessedLetters}
       step={step}
       handleLetterClick={handleLetterClick}
-      wordSelected={state.wordSelected}
-      hintSelected={state.hintSelected}
+      wordSelected={state?.wordSelected}
+      hintSelected={state?.hintSelected}
     />
   );
 }
